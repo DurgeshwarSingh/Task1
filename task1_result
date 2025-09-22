@@ -1,0 +1,23 @@
+# Nmap 7.95 scan initiated Mon Sep 22 07:09:54 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN task1_result 10.206.14.0/24
+Nmap scan report for 10.206.14.26
+Host is up (0.013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE
+53/tcp open     domain
+80/tcp filtered http
+MAC Address: 5A:2B:D7:C3:19:12 (Unknown)
+
+Nmap scan report for 10.206.14.154
+Host is up (0.16s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE    SERVICE
+80/tcp filtered http
+MAC Address: 5A:C3:F0:1D:AF:C1 (Unknown)
+
+Nmap scan report for 10.206.14.135
+Host is up (0.0000060s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE SERVICE
+631/tcp open  ipp
+
+# Nmap done at Mon Sep 22 07:14:39 2025 -- 256 IP addresses (3 hosts up) scanned in 284.75 seconds
